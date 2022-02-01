@@ -76,7 +76,7 @@ learning_rate = 0.01
 
 
     
-![png](output_22_0.png)
+![png](./images/output_22_0.png)
     
 
 
