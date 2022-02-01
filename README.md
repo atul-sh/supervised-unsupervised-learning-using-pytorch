@@ -24,8 +24,6 @@ E)     These are the classes in the dataset:
 
 F) The classes are completely mutually exclusive. i.e. There is no overlap between automobiles and trucks. "Automobile" includes sedans, SUVs, things of that sort. "Truck" includes only big trucks. Neither includes pickup trucks.
 
----
-
 
 
 
@@ -34,13 +32,14 @@ F) The classes are completely mutually exclusive. i.e. There is no overlap betwe
 
 ```python
 batch_size = 512
-learning_rate = 0.001
+num_epochs = 100
+learning_rate = 0.01
 ```
 
 
-
-
 ##### check classes in the dataset
+
+
 
 
 
@@ -64,13 +63,6 @@ learning_rate = 0.001
      {'airplane': 5000, 'automobile': 5000, 'bird': 5000, 'cat': 5000, 'deer': 5000, 'dog': 5000, 'frog': 5000, 'horse': 5000, 'ship': 5000, 'truck': 5000}
 
 
----
-#### Selecting imbalanced dataset for training
-
-we want **bird=deer=truck=2500** images for training that is 50% of the training images per class in the training dataset i.e. 5000.
-
-
-
 
 ##### length of the training and testing data
 
@@ -83,10 +75,13 @@ we want **bird=deer=truck=2500** images for training that is 50% of the training
 ##### Plotting Images
 
 
-
     
 ![png](output_22_0.png)
     
+
+
+
+
 
 
 
@@ -108,8 +103,6 @@ we want **bird=deer=truck=2500** images for training that is 50% of the training
 
 
 
-
-
 ##### Compare the ground truth vs Prediction
 
 
@@ -122,26 +115,26 @@ we want **bird=deer=truck=2500** images for training that is 50% of the training
     
 
 
-
 ##### Check Accuracy of the netwrok
 
 
-    Accuracy of the network on the 10000 test images: 59 %
+    Accuracy of the network on the 10000 test images: 63 %
 
 
 ##### Cheeck the accuracy of each class in the dataset
 
 
-    Accuracy for class: plane is 72.4 %  [724/1000]
-    Accuracy for class: car   is 62.4 %  [624/1000]
-    Accuracy for class: bird  is 48.9 %  [489/1000]
-    Accuracy for class: cat   is 57.7 %  [577/1000]
-    Accuracy for class: deer  is 34.5 %  [345/1000]
-    Accuracy for class: dog   is 47.6 %  [476/1000]
-    Accuracy for class: frog  is 74.6 %  [746/1000]
-    Accuracy for class: horse is 66.8 %  [668/1000]
-    Accuracy for class: ship  is 80.7 %  [807/1000]
-    Accuracy for class: truck is 44.4 %  [444/1000]
+
+    Accuracy for class: plane is 71.7 %  [717/1000]
+    Accuracy for class: car   is 86.2 %  [862/1000]
+    Accuracy for class: bird  is 33.1 %  [331/1000]
+    Accuracy for class: cat   is 43.2 %  [432/1000]
+    Accuracy for class: deer  is 58.9 %  [589/1000]
+    Accuracy for class: dog   is 52.0 %  [520/1000]
+    Accuracy for class: frog  is 59.5 %  [595/1000]
+    Accuracy for class: horse is 83.5 %  [835/1000]
+    Accuracy for class: ship  is 77.4 %  [774/1000]
+    Accuracy for class: truck is 70.6 %  [706/1000]
 
 
 ##### plot the Confusion matrix of the predicted score
