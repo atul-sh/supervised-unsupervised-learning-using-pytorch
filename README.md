@@ -91,14 +91,14 @@ learning_rate = 0.01
 
 
     
-![png](output_34_0.png)
+![png](./images/output_34_0.png)
     
 
 
 
 
     
-![png](output_35_0.png)
+![png](./images/output_35_0.png)
     
 
 
@@ -111,7 +111,7 @@ learning_rate = 0.01
 
 
     
-![png](output_43_1.png)
+![png](./images/output_43_1.png)
     
 
 
@@ -141,7 +141,7 @@ learning_rate = 0.01
 
 
     
-![png](output_49_0.png)
+![png](./images/output_49_0.png)
     
 
 
@@ -151,7 +151,7 @@ learning_rate = 0.01
 
 
     
-![png](output_52_0.png)
+![png](./images/output_52_0.png)
     
 
 
