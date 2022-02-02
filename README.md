@@ -40,9 +40,6 @@ learning_rate = 0.01
 ##### check classes in the dataset
 
 
-
-
-
     {0: 'airplane',
      1: 'automobile',
      2: 'bird',
