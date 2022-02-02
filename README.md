@@ -124,7 +124,6 @@ learning_rate = 0.01
 ##### Cheeck the accuracy of each class in the dataset
 
 
-
     Accuracy for class: plane is 71.7 %  [717/1000]
     Accuracy for class: car   is 86.2 %  [862/1000]
     Accuracy for class: bird  is 33.1 %  [331/1000]
