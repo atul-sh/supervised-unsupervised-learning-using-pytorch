@@ -25,8 +25,6 @@ E)     These are the classes in the dataset:
 F) The classes are completely mutually exclusive. i.e. There is no overlap between automobiles and trucks. "Automobile" includes sedans, SUVs, things of that sort. "Truck" includes only big trucks. Neither includes pickup trucks.
 
 
-
-
 ##### hyper parameter
 
 
