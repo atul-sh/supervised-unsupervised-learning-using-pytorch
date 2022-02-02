@@ -79,7 +79,6 @@ learning_rate = 0.01
 
 
 
-
 ---
 ##### Train the model
 
